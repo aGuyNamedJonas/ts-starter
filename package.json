@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "npx ts-node ./src/index.ts",
+    "build": "npx tsc ./src/index.ts --outDir build",
     "watch": "nodemon"
   },
   "keywords": [],
