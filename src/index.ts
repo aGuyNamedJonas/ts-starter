@@ -1,3 +1,5 @@
-import { helloWorld } from './HelloWorld'
+export function hello (name: string) {
+  return `Hello ${name}!`
+}
 
-helloWorld('Jonas')
+console.log(hello('ts-starter'))

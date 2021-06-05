@@ -1,6 +1,8 @@
 {
   "compilerOptions": {
-    "target": "es2017",
-    "isolatedModules": false
+    "module": "commonjs",
+    "target": "ES2019",
+    "isolatedModules": false,
+    "outDir": "dist"
   }
 }
