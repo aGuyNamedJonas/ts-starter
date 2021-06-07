@@ -1,4 +1,4 @@
-# ts-starter
+# ts-starter ![$ npx startmeup supported](https://img.shields.io/static/v1?label=$npx%20startmeup%20&color=CB3837&logo=npm&message=ts-starter)
 > Typescript starter with nodemon & jest
 
 # Features
