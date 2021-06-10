@@ -3,6 +3,9 @@
     "module": "commonjs",
     "target": "ES2019",
     "isolatedModules": false,
-    "outDir": "dist"
-  }
+    "outDir": "dist",
+    "declaration": true
+  },
+  "include": ["src/**/*"],
+  "exclude": ["src/**/*.test.ts"]
 }

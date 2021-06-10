@@ -2,10 +2,11 @@
   "name": "ts-starter",
   "version": "1.0.0",
   "description": "Typescript starter with nodemon & jest",
-  "main": "/index.js",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
     "start": "npx ts-node ./src/index.ts",
-    "build": "npx tsc ./src/index.ts",
+    "build": "npx tsc",
     "watch": "nodemon",
     "test": "jest",
     "west": "jest --watch"
